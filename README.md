@@ -14,6 +14,10 @@ The Data contains unique **ids** and **pickup_datetimes** for each taxi ride ide
 - **dropoff_latitude** - latitude coordinate of where the taxi ride ended.
 - **passenger_count** - number of passengers in the taxi ride.
 
+## Cleaning Data
+An imputer is used to convert null values to numerical values using averages from each column. 
+
+
 ## Model Technique
 The model is a Random Forest Regressor utilized to predict taxi fare amounts. The model validation is based on mean absolute error, mean squared error, coefficient of determination, and a cross validation test.
 
@@ -21,5 +25,8 @@ error=|actual−predicted|
 
 With the MAE metric, take the absolute value of each error to measure model quality.
 
-## Cleaning Data
-An imputer is used to convert null values to numerical values using averages from each column. 
+
+Calculate the mean squared error of the model predictions with a Random Forest Regressor. Average the square of the errors.
+
+
+Measure the strength of the relationship between the random forest regressor model and the taxi fare amounts.
