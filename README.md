@@ -9,7 +9,7 @@ Purpose: Predict the fare amount (inclusive of tolls) for a taxi ride in New Yor
 https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data
 
 ## Code and Resources Used
-**Packages:** pandas, numpy, sklean, matplotlib
+**Packages:** pandas, numpy, sklearn, matplotlib
 
 ## Data Description
 The Data contains unique **ids** and **pickup_datetimes** for each taxi ride identifying each row in both the training and test sets. The features of the data include: 
