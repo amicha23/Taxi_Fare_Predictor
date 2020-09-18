@@ -2,7 +2,7 @@
 
 ## Project Overview
 Purpose: Predict the fare amount (inclusive of tolls) for a taxi ride in New York City given the pickup and dropoff locations.
-- Created a tool to estimate the fares of New York taxi rides based on locations (MAE ~ $2.40).
+- Created a tool to estimate the fares of New York taxi rides based on locations (MAE ~ $2.40) to help those manage the amount of money dedicated towards transportation.
 - Optimized Random Forest and Linear Regressors to find the best model.
 
 ## Data
@@ -31,3 +31,5 @@ I tried using a two different models and evaluated them based on Mean Absolute E
 The Random Forest Regressor outperformed the Linear Regressor on test and validation sets. 
 - Random Forest MAE: $2.40
 - Linear Regression MAE: $5.83
+
+![MAE Train vs Test](MAE_Picture.PNG)
