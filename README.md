@@ -24,9 +24,9 @@ After acquiring the data, I needed to clean up the categorical variables so it c
 
 
 ## Model Technique
-The data is first split into train and validation sets of sets.
+The data is first split into training and validation sets.
 
-I tried using a two different models and evaluated them based on Mean Absolute Error, Mean Squared Error, Coefficient of Determination, and a Cross Validation Test. However, I looked most closely at the mean absolute error of the model because it is easer to interpret and there are less outliers.
+I tried using two different models and evaluated them based on Mean Absolute Error, Mean Squared Error, Coefficient of Determination, and a Cross Validation Test. However, I looked most closely at the mean absolute error of the model because it is easier to interpret and there are less outliers.
 
 The Random Forest Regressor outperformed the Linear Regressor on test and validation sets. 
 - Random Forest MAE: $2.40
